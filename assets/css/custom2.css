@@ -1,0 +1,507 @@
+@import url("OpenSans.css");
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 166px;
+}
+.social-nav {
+  width: 100%;
+  background-color: #1d396d;
+  padding: 10px 15px;
+}
+.social-nav ul.social {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.social-nav ul.social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.social-nav ul.social li a {
+  color: #ffffff;
+}
+.social-nav .btn-download {
+  color: #000000;
+  background-color: #ffffff;
+  margin-left: 7px;
+  padding: 3px 35px;
+  border-radius: 18px;
+  position: relative;
+
+  transition: all 0.5s;
+}
+.social-nav .btn-download i {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.social-nav .btn-download:hover {
+  background-color: deepskyblue;
+  color: #ffffff;
+}
+.navbar-area.navbar-style-two .zovio-nav .navbar .navbar-nav {
+  margin-left: auto;
+  margin-right: 0;
+  float: left;
+}
+.navbar-area.navbar-style-two .zovio-nav {
+  border-bottom: 1px solid #dedede;
+}
+.navbar-area.navbar-style-two .zovio-nav .navbar .navbar-nav .nav-item a {
+  color: #1d396d;
+  font-weight: bold;
+  text-transform: none;
+}
+.navbar-area.navbar-style-two .zovio-nav .navbar .navbar-nav .nav-item a:hover,
+.navbar-area.navbar-style-two .zovio-nav .navbar .navbar-nav .nav-item a:focus,
+.navbar-area.navbar-style-two
+  .zovio-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a.active {
+  color: #333333;
+}
+.navbar-area.navbar-style-two
+  .zovio-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a {
+  color: #1d396d;
+}
+.navbar-area.navbar-style-two
+  .zovio-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-two
+  .zovio-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-two
+  .zovio-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a.active {
+  color: #333333;
+}
+.zovio-nav .navbar .navbar-nav .nav-item .dropdown-menu li a::before {
+  background-color: #333333;
+}
+.page-nav {
+  border-bottom: 1px solid #dedede;
+}
+ul.nav-pills {
+  align-items: center;
+  justify-content: center;
+}
+.nav-pills .nav-link.active {
+  color: #1d396d;
+  background: none;
+}
+.nav-pills .nav-link {
+  color: #333333;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+.nav-pills .nav-link::after {
+  background-color: #1d396d;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 0 auto;
+  width: 0;
+  margin-top: 0.5rem;
+  transition: all 0.2s;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #1d396d;
+}
+.nav-link:focus::after,
+.nav-link:hover::after {
+  width: 100%;
+}
+.nav-pills .nav-link.active::after {
+  width: 100%;
+}
+.navbar-area.navbar-style-two.is-sticky .navbar-brand {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.navbar-area.is-sticky {
+  background-color: #ffffff !important;
+}
+.download-section {
+  background-color: #f7f7f7;
+}
+.covid-bg {
+  background-image: url("../img/banner-covid.png");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+.download-section .fontweight {
+  font-weight: 300;
+  position: absolute;
+  margin: 0 0 0 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1d396d;
+  font-weight: bold;
+}
+.download-section .img-fluid {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.contact-form h3 {
+  background: #1d396d;
+  padding: 11px;
+  margin: 0;
+  border: 2px solid #1d396d;
+  font-size: 21px;
+  color: #fff;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+}
+.form-control:focus {
+  border-color: #1d396d;
+}
+.default-btn {
+  background-color: #1d396d;
+  font-weight: bold;
+}
+.default-btn:hover {
+  background-color: #333333;
+}
+.Zoono-lab .single-image {
+  width: 150px;
+  margin: auto;
+}
+.Zoono-lab .single-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+#Zoono-features {
+  background-color: #1d396d;
+}
+#Zoono-workspace .testimonials-slides .owl-dots {
+  display: none;
+}
+#Zoono-workspace .testimonials-slides .owl-nav {
+  margin-top: 0;
+}
+
+#Zoono-workspace .testimonials-slides .owl-nav [class*="owl-"] {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  background-color: #1d396d;
+  border-radius: 5px;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#Zoono-workspace .testimonials-slides .owl-nav [class*="owl-"].owl-next {
+  left: auto;
+  right: 50px;
+}
+
+#Zoono-workspace .testimonials-slides .owl-nav [class*="owl-"]:hover {
+  color: #ffffff;
+  background-color: #252920;
+}
+
+#Zoono-workspace .testimonials-slides:hover .owl-nav [class*="owl-"] {
+  opacity: 1;
+  visibility: visible;
+  left: 25px;
+}
+
+#Zoono-workspace .testimonials-slides:hover .owl-nav [class*="owl-"].owl-next {
+  left: auto;
+  right: 25px;
+}
+#Zoono-workspace .single-testimonials-item {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  text-align: center;
+  padding: 30px 30px 40px;
+}
+#Zoono-workspace .single-testimonials-item::after {
+  content: "";
+}
+#Zoono-workspace .single-testimonials-item p {
+  color: #333333;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+}
+#Zoono-workspace .single-testimonials-item .client-info {
+  padding-right: 0;
+}
+.go-top::before{
+    background: #1d396d;
+}
+#Zoono-video{
+    background-color:#1d396d ;
+}
+.section-title h2 span{
+    color: #ffffff;
+}
+.section-title h2{
+    font-family: "Open Sans", sans-serif;
+}
+.services-slides.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: #333333;
+    color: #ffffff;
+}
+.services-slides.owl-theme .owl-nav [class*=owl-]{
+    color: #333333;
+    background-color: #ffffff;
+}
+.single-services-box {
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 4px; }
+  
+  .single-services-box a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px; }
+  
+  .single-services-box a img {
+    position: relative;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out; }
+  
+  .single-services-box .item-wrap {
+    display: block;
+    position: relative; }
+  
+  .single-services-box .item-wrap:after {
+    z-index: 2;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out; }
+  
+  .single-services-box .item-wrap > i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    -ms-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    font-size: 1.7rem;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; 
+
+}
+  
+  .single-services-box .item-wrap:hover:after {
+    opacity: 1;
+    visibility: visible; }
+  
+  .single-services-box .item-wrap:hover i {
+    margin-top: 0px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1); }
+  
+  .item:hover a img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out; }
+    .owl-carousel .owl-stage{
+        margin: auto;
+    }
+   
+#Zoono-faq .sub-title {
+    display: block;
+    margin-bottom: 5px;
+    color: #1d396d;
+    font-size: 17px;
+  }
+  
+  #Zoono-faq h2 {
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-size: 40px;
+     font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+  
+  #Zoono-faq .accordion {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+  
+  #Zoono-faq .accordion .accordion-item {
+    display: block;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+            box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    background: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  #Zoono-faq .accordion .accordion-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  #Zoono-faq .accordion .accordion-title {
+    padding: 12px 20px 12px 51px;
+    color: #252920;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    margin-bottom: -1px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  #Zoono-faq .accordion .accordion-title i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    text-align: center;
+    height: 100%;
+    background: #faf5f5;
+    color: #1d396d;
+    font-size: 14px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  #Zoono-faq .accordion .accordion-title i::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  
+  #Zoono-faq .accordion .accordion-title.active {
+    border-bottom-color: #eeeeee;
+  }
+  
+  #Zoono-faq .accordion .accordion-title.active i {
+    background-color: #1d396d;
+    color: #ffffff;
+  }
+  
+  #Zoono-faq .accordion .accordion-title.active i::before {
+    content: "\f068";
+  }
+  
+  #Zoono-faq .accordion .accordion-content {
+    display: none;
+    position: relative;
+    padding: 15px;
+    font-size: 14.5px;
+  }
+  
+  #Zoono-faq .accordion .accordion-content.show {
+    display: block;
+  }
+  .Enquire-form{
+      background-color: #ffffff !important;
+  }
+  .footer-area{
+      background-image: none;
+      background-color:#1d396d ;
+  }
+  footer ul.Zoono-links li{
+      display: inline-block;
+      margin-left:5px ;
+      margin-right:5px ;
+
+  }
+  footer ul.Zoono-links li a{
+
+    color: #ffffff;
+    font-weight: bold;
+
+}
+.copyright-area{
+    border-top: 1px solid #ffffff;
+}
+.single-footer-widget .social li a:hover{
+    color: #333333;
+}
